@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		AFABEC5A2117E8140064FD61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFABEC592117E8140064FD61 /* AppDelegate.swift */; };
-		AFABEC5C2117E8140064FD61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFABEC5B2117E8140064FD61 /* ViewController.swift */; };
 		AFABEC5F2117E8140064FD61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFABEC5D2117E8140064FD61 /* Main.storyboard */; };
 		AFABEC612117E8190064FD61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFABEC602117E8190064FD61 /* Assets.xcassets */; };
 		AFABEC642117E8190064FD61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFABEC622117E8190064FD61 /* LaunchScreen.storyboard */; };
+		AFABEC6C2117EB370064FD61 /* PlantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFABEC6B2117EB370064FD61 /* PlantTableViewController.swift */; };
+		AFABEC6E2117EB910064FD61 /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFABEC6D2117EB910064FD61 /* PlantTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AFABEC562117E8140064FD61 /* Plants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFABEC592117E8140064FD61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFABEC5B2117E8140064FD61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFABEC5E2117E8140064FD61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFABEC602117E8190064FD61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFABEC632117E8190064FD61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFABEC652117E8190064FD61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFABEC6B2117EB370064FD61 /* PlantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewController.swift; sourceTree = "<group>"; };
+		AFABEC6D2117EB910064FD61 /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				AFABEC592117E8140064FD61 /* AppDelegate.swift */,
-				AFABEC5B2117E8140064FD61 /* ViewController.swift */,
 				AFABEC5D2117E8140064FD61 /* Main.storyboard */,
 				AFABEC602117E8190064FD61 /* Assets.xcassets */,
 				AFABEC622117E8190064FD61 /* LaunchScreen.storyboard */,
 				AFABEC652117E8190064FD61 /* Info.plist */,
+				AFABEC6B2117EB370064FD61 /* PlantTableViewController.swift */,
+				AFABEC6D2117EB910064FD61 /* PlantTableViewCell.swift */,
 			);
 			path = Plants;
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFABEC5C2117E8140064FD61 /* ViewController.swift in Sources */,
 				AFABEC5A2117E8140064FD61 /* AppDelegate.swift in Sources */,
+				AFABEC6E2117EB910064FD61 /* PlantTableViewCell.swift in Sources */,
+				AFABEC6C2117EB370064FD61 /* PlantTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
